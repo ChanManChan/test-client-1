@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Routes from './Routes';
+import { render } from 'react-snapshot';
 
-ReactDOM.render(<Routes />, document.getElementById('root'));
+render(<Routes />, document.getElementById('root'));
